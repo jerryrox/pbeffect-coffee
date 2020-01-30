@@ -1,0 +1,14 @@
+{
+    "name": "PBEffectCoffee",
+    "references": [
+        "GUID:10b2629f775cc431490006156dcdf7c5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
