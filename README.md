@@ -7,11 +7,5 @@ This wrapper implements the effects interface from project-beats-framework, allo
 - Coffee UI extensions
 
 ## To-Dos
-#### Graphics/Effects/CoffeeUI
-- Note: UIEffectBase is used by UIDissolve, UIEffect, UIHsvModifier, UIShiny, UITransitionEffect.
-- Wrap UIEffect
-- Wrap UIEffectCapturedImage
-- Wrap UIHsvModifier
-- Wrap UIShadow
-- Wrap UIShiny
-- Wrap UITransitionEffect
+#### UI
+- Create UIEffectCapturedImage as a UI element.
