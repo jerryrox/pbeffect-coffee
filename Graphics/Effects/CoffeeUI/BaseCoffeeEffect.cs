@@ -28,10 +28,14 @@ namespace PBFramework.Graphics.Effects.CoffeeUI
             }
 
             var graphic = GetGraphic(obj);
-            if(graphic == null) return false;
+            if (graphic == null)
+            {
+                Logger.LogWarning($"BaseCoffeeEffect.Apply - Missing graphic component!");
+                return false;
+            }
 
             Component = obj.RawObject.AddComponent<T>();
-            return false;
+            return true;
         }
 
         void IEffect.Revert(IGraphicObject obj)
